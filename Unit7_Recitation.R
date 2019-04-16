@@ -1,7 +1,5 @@
-# Unit 7 - Recitation
 
-
-# VIDEO 3 - Bar Charts
+# Bar Charts
 
 # Load ggplot library
 library(ggplot2)
@@ -36,7 +34,7 @@ theme(axis.title.x = element_blank(), axis.text.x = element_text(angle = 45, hju
 
 
 
-# VIDEO 5 - World map
+# World map
 
 # Load the ggmap package
 library(ggmap)
@@ -102,7 +100,7 @@ ggplot(world_map, aes(x=long, y=lat, group=group)) +
 
 
 
-# VIDEO 7 - Line Charts
+#  Line Charts
 
 # First, lets make sure we have ggplot2 loaded
 library(ggplot2)
