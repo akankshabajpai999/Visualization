@@ -1,7 +1,7 @@
-# Unit 7 - Lecture 2, Predictive Policing
+# Predictive Policing
 
 
-# VIDEO 3 - A Basic Line Plot
+# A Basic Line Plot
 
 # Load our data:
 mvt = read.csv("mvt.csv", stringsAsFactors=FALSE)
@@ -44,7 +44,7 @@ ggplot(WeekdayCounts, aes(x=Var1, y=Freq)) + geom_line(aes(group=1)) + xlab("Day
 
 
 
-# VIDEO 4 - Adding the Hour of the Day
+#  Adding the Hour of the Day
 
 # Create a counts table for the weekday and hour:
 table(mvt$Weekday, mvt$Hour)
@@ -91,7 +91,7 @@ ggplot(DayHourCounts, aes(x = Hour, y = Var1)) + geom_tile(aes(fill = Freq)) + s
 
 
 
-# VIDEO 5 - Maps
+#  Maps
 
 # Install and load two new packages:
 install.packages("maps")
@@ -128,7 +128,7 @@ ggmap(chicago) + geom_tile(data = LatLonCounts, aes(x = Long, y = Lat, alpha = F
 
 
 
-# VIDEO 6 - Geographical Map on US
+#  Geographical Map on US
 
 # Load our data:
 murders = read.csv("murders.csv")
