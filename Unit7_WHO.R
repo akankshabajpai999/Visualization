@@ -1,7 +1,5 @@
-# Unit 7 - Lecture 1
 
-
-# VIDEO 4 - A BASIC SCATTERPLOT
+#  A BASIC SCATTERPLOT
 
 # Read in data
 
@@ -9,8 +7,6 @@ WHO = read.csv("WHO.csv")
 
 str(WHO)
 
-
-# Plot from Week 1
 
 plot(WHO$GNI, WHO$FertilityRate)
 
@@ -52,7 +48,7 @@ dev.off()
 
 
 
-# VIDEO 5 - MORE ADVANCED SCATTERPLOTS 
+#  MORE ADVANCED SCATTERPLOTS 
 
 
 # Color the points by region: 
